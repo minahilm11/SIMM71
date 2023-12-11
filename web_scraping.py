@@ -46,4 +46,4 @@ def scrape_economist(topic, pages=10):
     print(f"Data saved to {output_csv}")
 
 # Scrape articles on a specific topic and save to CSV
-scrape_economist("feminism")
+scrape_economist("Palestine")
