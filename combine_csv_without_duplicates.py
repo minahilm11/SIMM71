@@ -1,10 +1,10 @@
 import pandas as pd
 
 # Read the first CSV file
-df1 = pd.read_csv('israel.csv')
+df1 = pd.read_csv('economist_dataset_old.csv')
 
 # Read the second CSV file
-df2 = pd.read_csv('palestine.csv')
+df2 = pd.read_csv('Israel_year.csv')
 
 # Combine the two dataframes
 combined_df = pd.concat([df1, df2])
